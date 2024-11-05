@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D14CF7CA2CD9F373002BD6C2 /* OTIS_RecordManager_Example.swift in Sources */ = {isa = PBXBuildFile; fileRef = D14CF7C92CD9F373002BD6C2 /* OTIS_RecordManager_Example.swift */; };
 		D1B19C442CD9E8E900D5EE4E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1B19C3E2CD9E8E900D5EE4E /* Preview Assets.xcassets */; };
 		D1B19C452CD9E8E900D5EE4E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1B19C402CD9E8E900D5EE4E /* Assets.xcassets */; };
 		D1B19C552CD9E91F00D5EE4E /* SingleRecordViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1B19C512CD9E91F00D5EE4E /* SingleRecordViewModel.swift */; };
@@ -21,6 +22,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D14CF7C92CD9F373002BD6C2 /* OTIS_RecordManager_Example.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTIS_RecordManager_Example.swift; sourceTree = "<group>"; };
 		D1B19C2D2CD9E8E300D5EE4E /* OTIS_RecordManager_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OTIS_RecordManager_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1B19C3E2CD9E8E900D5EE4E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D1B19C402CD9E8E900D5EE4E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -151,6 +153,7 @@
 		D1B19C762CD9EF4500D5EE4E /* Application */ = {
 			isa = PBXGroup;
 			children = (
+				D14CF7C92CD9F373002BD6C2 /* OTIS_RecordManager_Example.swift */,
 				D1B19C7F2CD9EFD000D5EE4E /* ContentView.swift */,
 				D1B19C802CD9EFD000D5EE4E /* LazyView.swift */,
 				D1B19C812CD9EFD000D5EE4E /* UIKitViewRepresentable.swift */,
@@ -241,6 +244,7 @@
 				D1B19C562CD9E91F00D5EE4E /* SingleRecordView.swift in Sources */,
 				D1B19C572CD9E91F00D5EE4E /* MultiRecordViewModel.swift in Sources */,
 				D1B19C582CD9E91F00D5EE4E /* MultiRecordView.swift in Sources */,
+				D14CF7CA2CD9F373002BD6C2 /* OTIS_RecordManager_Example.swift in Sources */,
 				D1B19C822CD9EFD000D5EE4E /* UIKitViewRepresentable.swift in Sources */,
 				D1B19C832CD9EFD000D5EE4E /* ContentView.swift in Sources */,
 				D1B19C842CD9EFD000D5EE4E /* LazyView.swift in Sources */,
