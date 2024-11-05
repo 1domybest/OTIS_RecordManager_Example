@@ -9,30 +9,28 @@
 /* Begin PBXBuildFile section */
 		D1B19C442CD9E8E900D5EE4E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1B19C3E2CD9E8E900D5EE4E /* Preview Assets.xcassets */; };
 		D1B19C452CD9E8E900D5EE4E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1B19C402CD9E8E900D5EE4E /* Assets.xcassets */; };
-		D1B19C472CD9E8E900D5EE4E /* OTIS_RecordManager_ExampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1B19C422CD9E8E900D5EE4E /* OTIS_RecordManager_ExampleApp.swift */; };
 		D1B19C552CD9E91F00D5EE4E /* SingleRecordViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1B19C512CD9E91F00D5EE4E /* SingleRecordViewModel.swift */; };
 		D1B19C562CD9E91F00D5EE4E /* SingleRecordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1B19C4F2CD9E91F00D5EE4E /* SingleRecordView.swift */; };
 		D1B19C572CD9E91F00D5EE4E /* MultiRecordViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1B19C4C2CD9E91F00D5EE4E /* MultiRecordViewModel.swift */; };
 		D1B19C582CD9E91F00D5EE4E /* MultiRecordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1B19C4A2CD9E91F00D5EE4E /* MultiRecordView.swift */; };
-		D1B19C5D2CD9E92600D5EE4E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1B19C592CD9E92600D5EE4E /* ContentView.swift */; };
-		D1B19C5E2CD9E92600D5EE4E /* UIKitViewRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1B19C5B2CD9E92600D5EE4E /* UIKitViewRepresentable.swift */; };
-		D1B19C5F2CD9E92600D5EE4E /* LazyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1B19C5A2CD9E92600D5EE4E /* LazyView.swift */; };
 		D1B19C6D2CD9EAFC00D5EE4E /* RecordManagerLibrary in Frameworks */ = {isa = PBXBuildFile; productRef = D1B19C6C2CD9EAFC00D5EE4E /* RecordManagerLibrary */; };
 		D1B19C752CD9EC5E00D5EE4E /* CameraManagerLibrary in Frameworks */ = {isa = PBXBuildFile; productRef = D1B19C742CD9EC5E00D5EE4E /* CameraManagerLibrary */; };
+		D1B19C822CD9EFD000D5EE4E /* UIKitViewRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1B19C812CD9EFD000D5EE4E /* UIKitViewRepresentable.swift */; };
+		D1B19C832CD9EFD000D5EE4E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1B19C7F2CD9EFD000D5EE4E /* ContentView.swift */; };
+		D1B19C842CD9EFD000D5EE4E /* LazyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1B19C802CD9EFD000D5EE4E /* LazyView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		D1B19C2D2CD9E8E300D5EE4E /* OTIS_RecordManager_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OTIS_RecordManager_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1B19C3E2CD9E8E900D5EE4E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D1B19C402CD9E8E900D5EE4E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		D1B19C422CD9E8E900D5EE4E /* OTIS_RecordManager_ExampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTIS_RecordManager_ExampleApp.swift; sourceTree = "<group>"; };
 		D1B19C4A2CD9E91F00D5EE4E /* MultiRecordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiRecordView.swift; sourceTree = "<group>"; };
 		D1B19C4C2CD9E91F00D5EE4E /* MultiRecordViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiRecordViewModel.swift; sourceTree = "<group>"; };
 		D1B19C4F2CD9E91F00D5EE4E /* SingleRecordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleRecordView.swift; sourceTree = "<group>"; };
 		D1B19C512CD9E91F00D5EE4E /* SingleRecordViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleRecordViewModel.swift; sourceTree = "<group>"; };
-		D1B19C592CD9E92600D5EE4E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		D1B19C5A2CD9E92600D5EE4E /* LazyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyView.swift; sourceTree = "<group>"; };
-		D1B19C5B2CD9E92600D5EE4E /* UIKitViewRepresentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIKitViewRepresentable.swift; sourceTree = "<group>"; };
+		D1B19C7F2CD9EFD000D5EE4E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D1B19C802CD9EFD000D5EE4E /* LazyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyView.swift; sourceTree = "<group>"; };
+		D1B19C812CD9EFD000D5EE4E /* UIKitViewRepresentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIKitViewRepresentable.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,7 +75,7 @@
 			isa = PBXGroup;
 			children = (
 				D1B19C3F2CD9E8E900D5EE4E /* Preview Content */,
-				D1B19C5C2CD9E92600D5EE4E /* Application */,
+				D1B19C762CD9EF4500D5EE4E /* Application */,
 				D1B19C542CD9E91F00D5EE4E /* RecordExample */,
 				D1B19C402CD9E8E900D5EE4E /* Assets.xcassets */,
 			);
@@ -143,23 +141,21 @@
 			path = RecordExample;
 			sourceTree = "<group>";
 		};
-		D1B19C5C2CD9E92600D5EE4E /* Application */ = {
-			isa = PBXGroup;
-			children = (
-				D1B19C422CD9E8E900D5EE4E /* OTIS_RecordManager_ExampleApp.swift */,
-				D1B19C592CD9E92600D5EE4E /* ContentView.swift */,
-				D1B19C5A2CD9E92600D5EE4E /* LazyView.swift */,
-				D1B19C5B2CD9E92600D5EE4E /* UIKitViewRepresentable.swift */,
-			);
-			name = Application;
-			path = ../../GitHub/CameraManager/OTIS_CameraManager_Example/OTIS_CameraManager_Example/Application;
-			sourceTree = "<group>";
-		};
 		D1B19C662CD9E99A00D5EE4E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D1B19C762CD9EF4500D5EE4E /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				D1B19C7F2CD9EFD000D5EE4E /* ContentView.swift */,
+				D1B19C802CD9EFD000D5EE4E /* LazyView.swift */,
+				D1B19C812CD9EFD000D5EE4E /* UIKitViewRepresentable.swift */,
+			);
+			path = Application;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -241,14 +237,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D1B19C5D2CD9E92600D5EE4E /* ContentView.swift in Sources */,
-				D1B19C5E2CD9E92600D5EE4E /* UIKitViewRepresentable.swift in Sources */,
-				D1B19C5F2CD9E92600D5EE4E /* LazyView.swift in Sources */,
 				D1B19C552CD9E91F00D5EE4E /* SingleRecordViewModel.swift in Sources */,
 				D1B19C562CD9E91F00D5EE4E /* SingleRecordView.swift in Sources */,
 				D1B19C572CD9E91F00D5EE4E /* MultiRecordViewModel.swift in Sources */,
 				D1B19C582CD9E91F00D5EE4E /* MultiRecordView.swift in Sources */,
-				D1B19C472CD9E8E900D5EE4E /* OTIS_RecordManager_ExampleApp.swift in Sources */,
+				D1B19C822CD9EFD000D5EE4E /* UIKitViewRepresentable.swift in Sources */,
+				D1B19C832CD9EFD000D5EE4E /* ContentView.swift in Sources */,
+				D1B19C842CD9EFD000D5EE4E /* LazyView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
